@@ -1,0 +1,18 @@
+.background-image {
+    background-image: url(../images/fitness-66.jpg);
+    width: 80%;
+    height: 1700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    border-radius: 15%;
+    margin-top: 2%;
+}
+
+.material-symbols-outlined {
+  color: white;
+  margin-top: 11%;
+  margin-left: 5%;
+  icon-
+}
