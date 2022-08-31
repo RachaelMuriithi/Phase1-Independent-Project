@@ -1,15 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rays Fitness site</title>
     <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class ="background-image">
-        <nav></nav>
-    </div>
+    <div class="background-image">
+        <nav>
+            <span id="logo">&#9650RaysFitnessTracker</span>
+            <ul class="buttons">
+                <li class="list">
+                    <a class="details" href="#">About</a>
+                </li>
+                <li class="list">
+                    <a class="details" href="#">BMI</a>
+                </li>
+                <li class="list">
+                    <a class="details" href="#">Caloric Needs</a>
+                </li>
+                <li class="list">
+                    <a class="details" href="#">Exercise Guide</a>
+                </li>
+            </ul>
+            <a id="contacts" href="#"> <button><b>Contact Us</b></button></a>
+        </nav>
+        <p id="nolimit">
+            <span id="lim"><b>THERE IS NO LIMIT !</b></span> <br> <br>
+            <span id="cap">You're capable of more than you realize.
+                Rise Up.</span>
+        </p>
+        <br>
+        <br>
+        <p id="desc">
+            <span id="about">About</span> <br> <br>
+            RaysFitnessTracker is here to help you keep track of your BMI, Caloric needs <br> depending on your set
+            goals. Learn more about your daily calorie intake,<br> what needs to
+            change in line with your goals. <br> <br> <span id="health"><b>Your body's health is your wealth</b> </span>
+        </p>
+        <br>
+        <br>
+        <div id="bcolor">
+            <br>
+            <br>
+            <!--BMI Calculator-->
+            <section id="bmi-calculator" class="page page-light">
+                <h1 class="h1">BODY MASS INDEX (BMI)</h1><br />
+                <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies <br> to adult men
+                    and
+                    women.
+                    Calculate your BMI to determine your goal. </p><br />
+                <br />
+                <h1 class="h1">BMI Calculator</h1>
+                <div class="container">
+                    <form id="bmi-form">
+                        <label for="bmi-height">Your Height:</label><br />
+                        <input type="text" id="bmi-height" placeholder="Centimeters" /><br />
+                        <label for="bmi-weight">Your Weight:</label><br />
+                        <input type="text" id="bmi-weight" placeholder="Kilograms" /><br /><br />
+                        <span id="bmi-submit" class="btn btn-blue">Submit</span>
+                    </form>
+
+                    <div class="list-box">
+                        <h4 id="bmi-result">YOUR BMI = [Not Entered]</h4><br />
+                        <h3>BMI Categories:</h3>
+                        <ul>
+                            <li>Underweight: BMI &lt; 18.5 (Gain weight)</li>
+                            <li>Normal weight: 18.5 &lt; BMI &lt; 24.9 (Maintain)</li>
+                            <li>Overweight: BMI &gt; 24.9 (Loss weight)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
 </body>
+
 </html>

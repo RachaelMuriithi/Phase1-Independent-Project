@@ -1,18 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .background-image {
-    background-image: url(../images/fitness-66.jpg);
-    width: 80%;
-    height: 1700px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: 10%;
-    border-radius: 15%;
-    margin-top: 2%;
+  background-image: url(../images/Renamer.jpg);
+  width: 100%;
+  height: 1300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.material-symbols-outlined {
+#logo {
+  margin-top: 1%;
+  font-size: 100px;
+  padding-left: 1%;
   color: white;
-  margin-top: 11%;
-  margin-left: 5%;
-  icon-
+  font-family: "Lobster", cursive;
+  text-shadow: 2px 2px 3px black;
+  cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px, 10%;
+    margin-right: 5%;
+}
+nav li a {
+    transition: all 0.3s ease 0s;
+}
+nav li a:hover {
+    color: rgb(159, 212, 234);
+}
+.buttons {
+    list-style-type: none;
+    display: flex;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(135, 175, 220);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgb(6, 99, 120);
+}
+.details {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Dancing Script", cursive;
+    text-decoration: none;
+    padding: 0px 20px;
+    
+  }
+#nolimit {
+  color: whitesmoke;
+  font-size: 50px;
+  margin-top: 10%;
+  margin-left:25%; 
+  font-weight: 600;
+}
+#desc {
+  color: whitesmoke;
+  font-size: 50px;
+  margin-left:20%;
+}
+#about {
+  font-size: 60px;
+  margin-left: 30%;
+  font-weight: 600;
+}
+#lim {
+    font-size: 100px;
+    color: white;
+    margin-left: 5%; 
+}
+#cap {
+    margin-left: 5%;
+}
+#health {
+  margin-left: 15%;
+}
+form {
+  background: #191a1d;
+  color: #d9d9d9;
+  padding: 1rem 0.5rem 2rem 0.5rem;
+  text-align: center;
+  margin: 2rem;
+  border-radius: 32px;
+  width: 35%;
+  box-shadow: 0 0 3px #000000;
+}
+#bmi-calculator {
+  margin-left: 25%;
+  margin-top: 15%;
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: 800;
+}
+#bcolor {
+  background-image: url(../images/e25796f3cf1648f4a22815b6625560f9.jpg);
+  width: 50%;
+  height: 1300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 6%;
+  margin-left: 1%;
+  border-radius: 90%;
 }
