@@ -4,7 +4,7 @@
   padding: 0;
 }
 .background-image {
-  background-image: url(../images/Renamer.jpg);
+  background-image: url(../images/nn.jpg);
   width: 100%;
   height: 1300px;
   background-position: center;
@@ -23,55 +23,54 @@
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px, 10%;
-    margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px, 10%;
+  margin-right: 5%;
 }
 nav li a {
-    transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 nav li a:hover {
-    color: rgb(159, 212, 234);
+  color: rgb(159, 212, 234);
 }
 .buttons {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
 button {
-    padding: 9px 25px;
-    background-color: rgb(135, 175, 220);
-    color: white;
-    border: none;
-    border-radius: 50px;
-    font-size: 20px;
-    transition: all 0.3s ease 0s;
+  padding: 9px 25px;
+  background-color: rgb(135, 175, 220);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  transition: all 0.3s ease 0s;
 }
 button:hover {
-    background-color: rgb(6, 99, 120);
+  background-color: rgb(6, 99, 120);
 }
 .details {
-    color: white;
-    font-size: 30px;
-    font-weight: 700;
-    font-family: "Dancing Script", cursive;
-    text-decoration: none;
-    padding: 0px 20px;
-    
-  }
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
+  padding: 0px 20px;
+}
 #nolimit {
   color: whitesmoke;
   font-size: 50px;
   margin-top: 10%;
-  margin-left:25%; 
+  margin-left: 25%;
   font-weight: 600;
 }
 #desc {
   color: whitesmoke;
   font-size: 50px;
-  margin-left:20%;
+  margin-left: 20%;
 }
 #about {
   font-size: 60px;
@@ -79,12 +78,12 @@ button:hover {
   font-weight: 600;
 }
 #lim {
-    font-size: 100px;
-    color: white;
-    margin-left: 5%; 
+  font-size: 100px;
+  color: white;
+  margin-left: 5%;
 }
 #cap {
-    margin-left: 5%;
+  margin-left: 5%;
 }
 #health {
   margin-left: 15%;
@@ -100,20 +99,71 @@ form {
   box-shadow: 0 0 3px #000000;
 }
 #bmi-calculator {
-  margin-left: 25%;
-  margin-top: 15%;
-  color: whitesmoke;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: white;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 900;
 }
 #bcolor {
-  background-image: url(../images/e25796f3cf1648f4a22815b6625560f9.jpg);
-  width: 50%;
-  height: 1300px;
+  background-image: url(../images/tty.jpg);
+  /* background-color: #3a3d4f;   */
+  width: 100%;
+  height: 1400px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 6%;
-  margin-left: 1%;
-  border-radius: 90%;
+  margin-top: 1%;
+}
+#bmi-form input {
+  padding: 20px;
+  font-size: 26px;
+  width: 90%;
+  font-weight: 600;
+  color: black;
+}
+#bmi-form {
+  width: 80%;
+}
+.btn {
+  background-color: beige;
+  color: #000000;
+}
+.bmicat {
+  margin-left: 25%;
+}
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#bmi-result {
+  margin-left: 25%;
+}
+#caloric-needs {
+  margin-top: 5%;
+  margin-left: 5%;
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: 900;
+}
+#calorie-form {
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  width: 80%;
+}
+#calorie-form input #calorie-weight, #calorie-height, #age, #calorie-weight {
+  padding: 20px;
+  font-size: 26px;
+  width: 80%;
+  font-weight: 600;
+  color: black;
+}
+#activity {
+  padding: 20px;
+  font-size: 26px;
+  width: 50%;
+  font-weight: 600;
+  color: black;
 }

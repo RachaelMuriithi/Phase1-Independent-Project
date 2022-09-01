@@ -43,17 +43,17 @@
             <span id="about">About</span> <br> <br>
             RaysFitnessTracker is here to help you keep track of your BMI, Caloric needs <br> depending on your set
             goals. Learn more about your daily calorie intake,<br> what needs to
-            change in line with your goals. <br> <br> <span id="health"><b>Your body's health is your wealth</b> </span>
+            change in line with your goals. <br> <br> <span id="health"><b>Your health is your wealth</b> </span>
         </p>
-        <br>
-        <br>
-        <div id="bcolor">
-            <br>
-            <br>
-            <!--BMI Calculator-->
+    </div>
+    <div id="bcolor">
+        <!--BMI Calculator-->
+
+        <div class="section2">
             <section id="bmi-calculator" class="page page-light">
                 <h1 class="h1">BODY MASS INDEX (BMI)</h1><br />
-                <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies <br> to adult men
+                <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies <br> to adult
+                    men
                     and
                     women.
                     Calculate your BMI to determine your goal. </p><br />
@@ -61,27 +61,74 @@
                 <h1 class="h1">BMI Calculator</h1>
                 <div class="container">
                     <form id="bmi-form">
+                        <br>
                         <label for="bmi-height">Your Height:</label><br />
                         <input type="text" id="bmi-height" placeholder="Centimeters" /><br />
                         <label for="bmi-weight">Your Weight:</label><br />
                         <input type="text" id="bmi-weight" placeholder="Kilograms" /><br /><br />
-                        <span id="bmi-submit" class="btn btn-blue">Submit</span>
+                        <button id="bmi-submit" class="btn">Submit</button>
                     </form>
 
                     <div class="list-box">
-                        <h4 id="bmi-result">YOUR BMI = [Not Entered]</h4><br />
-                        <h3>BMI Categories:</h3>
-                        <ul>
+                        <h4 id="bmi-result">YOUR BMI = [Not Entered]</h4>
+                        <br>
+                        <h3 class="bmicat">BMI Categories:</h3>
+                        <ul class="bmicat">
                             <li>Underweight: BMI &lt; 18.5 (Gain weight)</li>
                             <li>Normal weight: 18.5 &lt; BMI &lt; 24.9 (Maintain)</li>
                             <li>Overweight: BMI &gt; 24.9 (Loss weight)</li>
                         </ul>
                     </div>
+            </section>
+            <!--Caloric Needs Calculator-->
+            <section id="caloric-needs" class="page page-dark">
+                <h1>CALORIC NEEDS</h1><br />
+                <p>The Calorie Calculator can be used to estimate <br> the number of calories a person needs to
+                    consume each day. <br> This
+                    calculator can also provide some simple guidelines for gaining or losing weight.</p>
+                    <br>
+                <h1>Calorie Needing Calculator</h1>
+                <div class="container">
+                    <form id="calorie-form">
+                        Gender: <br>
+                        <input type="radio" id="male" name="gender" value="male" />
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female" />
+                        <label for="female">Female</label><br />
+                        <label for="age">Age:</label><br />
+                        <input type="text" id="age" placeholder="15-80 years" /><br />
+                        <label for="calorie-height">Height:</label><br />
+                        <input type="text" id="calorie-height" placeholder="Centimeters" /><br />
+                        <label for="calorie-weight">Weight:</label><br />
+                        <input type="text" id="calorie-weight" placeholder="Kilograms" /><br />
+                        <label for="activity">Activity:</label><br />
+                        <select name="activity" id="activity">
+                            <option value="basal">Basal Metabolic Rate (BMR)</option>
+                            <option value="sedentary">Sedentary: little or no exercise</option>
+                            <option value="light">Light: exercise 1-3 times/week</option>
+                            <option value="moderate">Moderate: exercise 4-5 times/week</option>
+                            <option value="active">Active: daily exercise or intense exercise 3-4 times/week
+                            </option>
+                            <option value="very-active">Very Active: intense exercise 6-7 times/week</option>
+                            <option value="extra-active">Extra Active: very intense exercise daily or physical
+                                job</option>
+                        </select><br /><br />
+                        <button class="btn">Submit</button>
+                    </form>
+                    <div class="list-box">
+                        <br />
+                        <h4 id="calorie-result">YOUR CALORIE NEEDING = [Not Entered]</h4><br />
+                        <h3>Guideline:</h3>
+                        <ul>
+                            <li>To Lose Weight: Take 250-500 minus your calorie needing.</li>
+                            <li>To Maintain: Take 0-200 minus or 0-200 plus your calorie needing.</li>
+                            <li>To Gain Weight: Take 250-500 plus your calorie needing.</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
-
         </div>
-
+<script src="Js/index.js"></script>
 </body>
 
 </html>
