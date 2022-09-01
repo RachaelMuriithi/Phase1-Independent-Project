@@ -5,6 +5,7 @@ const calorieSubmit = document.getElementById("calorie-submit");
 
 // BMI Calculator
 bmiSubmit.addEventListener("click", function (event) {
+    evt.preventDefault();
     const height = parseFloat(document.getElementById("bmi-height").value) / 100;
     const weight = parseFloat(document.getElementById("bmi-weight").value);
     const result = weight / (height * height);

@@ -63,30 +63,31 @@ button:hover {
 #nolimit {
   color: whitesmoke;
   font-size: 50px;
-  margin-top: 10%;
-  margin-left: 25%;
+  margin-top: 8%;
+  /* margin-left: 50%; */
   font-weight: 600;
 }
 #desc {
   color: whitesmoke;
   font-size: 50px;
-  margin-left: 20%;
+  margin-top: 5%;
+  margin-left: 2%;
 }
 #about {
   font-size: 60px;
-  margin-left: 30%;
+  /* margin-left: 1%;  */
   font-weight: 600;
 }
 #lim {
   font-size: 100px;
   color: white;
-  margin-left: 5%;
+  margin-left: 60%;
 }
 #cap {
-  margin-left: 5%;
+ margin-left: 60%;
 }
 #health {
-  margin-left: 15%;
+  /* margin-left: 15%; */
 }
 form {
   background: #191a1d;
@@ -166,4 +167,14 @@ form {
   width: 50%;
   font-weight: 600;
   color: black;
+}
+#bmi-result {
+  padding: 0.7rem;
+  font-weight: normal;
+  background: #3a3d4f;
+  box-shadow: 0 0 4px #000000;
+  border-radius: 12px;
+  color: #ffffff;
+  margin-left: 12%;
+  width: 50%;
 }
