@@ -70,7 +70,7 @@ button:hover {
 #desc {
   color: whitesmoke;
   font-size: 50px;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 2%;
 }
 #about {
@@ -168,7 +168,7 @@ form {
   font-weight: 600;
   color: black;
 }
-#bmi-result {
+#bmi-result, #calorie-result{
   padding: 0.7rem;
   font-weight: normal;
   background: #3a3d4f;
@@ -177,4 +177,7 @@ form {
   color: #ffffff;
   margin-left: 12%;
   width: 50%;
+}
+#calorie-result {
+  width: 60%;
 }
