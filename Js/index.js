@@ -75,26 +75,27 @@ calorieSubmit.addEventListener("click", function (event) {
 
 //Excercise guide section
 
-const raysFitnessAPI = "http://localhost:3000/fullbody workout";
+const raysFitnessAPI = "http://localhost:3000/fullbody-workout";
 fetch(raysFitnessAPI)
   .then((res) => res.json())
   .then(function (res) {
     return res
-    console.log (res)
+    console.log(res)
   });
+ 
 
-monday.addEventListener("click", function (event) {
-  event.preventDefault();
-});
-tuesday.addEventListener("click", function (event) {
-  event.preventDefault();
-});
-wednesday.addEventListener("click", function (event) {
-  event.preventDefault();
-});
-thursday.addEventListener("click", function (event) {
-  event.preventDefault();
-});
-friday.addEventListener("click", function (event) {
-  event.preventDefault();
-});
+// monday.addEventListener("click", function (event) {
+//   event.preventDefault();
+// });
+// tuesday.addEventListener("click", function (event) {
+//   event.preventDefault();
+// });
+// wednesday.addEventListener("click", function (event) {
+//   event.preventDefault();
+// });
+// thursday.addEventListener("click", function (event) {
+//   event.preventDefault();
+// });
+// friday.addEventListener("click", function (event) {
+//   event.preventDefault();
+// });
