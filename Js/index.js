@@ -66,3 +66,8 @@ calorieSubmit.addEventListener("click", function (event) {
   
   // *****************
 
+const raysFitnessAPI = "http://localhost:3000/fullbody workout";
+fetch (raysFitnessAPI)
+.then((res) => res.json())
+.then();
+console.log()
