@@ -4,6 +4,7 @@
   padding: 0;
 }
 .background-image {
+  box-sizing: border-box;
   background-image: url(../images/nn.jpg);
   width: 100%;
   height: 1300px;
@@ -23,6 +24,7 @@
 }
 
 nav {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -65,6 +65,4 @@ calorieSubmit.addEventListener("click", function (event) {
   // *****************
   
   // *****************
-  
-
 
