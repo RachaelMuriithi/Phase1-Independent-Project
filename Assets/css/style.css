@@ -183,3 +183,26 @@ form {
 #calorie-result {
   width: 60%;
 }
+.exerciseg {
+  color: white;
+  box-sizing: border-box;
+  margin-top: 2%;
+  /* background-color: #5a5f77; */
+  background-image: url(../images/2.jpg); 
+  width: 100%;
+  height: 1300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#excer {
+  padding-top: 3%;
+  text-align: center;
+  font-size: 50px;
+}
+#unlisted{
+  text-align: center;
+  font-size: 30px;
+}
+
