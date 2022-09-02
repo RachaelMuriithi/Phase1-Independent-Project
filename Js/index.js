@@ -1,12 +1,16 @@
+//declaring variables
 const bmiForm = document.getElementById("bmi-form");
 const bmiSubmit = document.getElementById("bmi-submit");
 const calorieForm = document.getElementById("calorie-form");
 const calorieSubmit = document.getElementById("calorie-submit");
 const fullbodyworkout = document.getElementById("fullbody workout");
-const upperandLowerBodyworkout = document.getElementById("upperandLowerBodyworkout");
+const upperandLowerBodyworkout = document.getElementById(
+  "upperandLowerBodyworkout"
+);
 const legworkout = document.getElementById("legworkout");
-const losingWeight= document.getElementById("losingWeight");
-const friday = document.getElementById("buildingStrength");
+const losingWeight = document.getElementById("losingWeight");
+const buildingStrength = document.getElementById("buildingStrength");
+const buildingStamina = document.getElementById("buildingStamina");
 
 // BMI Calculator
 bmiSubmit.addEventListener("click", function (event) {
@@ -79,23 +83,25 @@ const raysFitnessAPI = "http://localhost:3000/fullbody-workout";
 fetch(raysFitnessAPI)
   .then((res) => res.json())
   .then(function (res) {
-    return res
-    console.log(res)
+    return res;
   });
- 
 
-// monday.addEventListener("click", function (event) {
-//   event.preventDefault();
-// });
-// tuesday.addEventListener("click", function (event) {
-//   event.preventDefault();
-// });
-// wednesday.addEventListener("click", function (event) {
-//   event.preventDefault();
-// });
-// thursday.addEventListener("click", function (event) {
-//   event.preventDefault();
-// });
-// friday.addEventListener("click", function (event) {
-//   event.preventDefault();
-// });
+  
+fullbodyworkout.addEventListener("click", function (event) {
+  event.preventDefault();
+});
+upperandLowerBodyworkout.addEventListener("click", function (event) {
+  event.preventDefault();
+});
+legworkout.addEventListener("click", function (event) {
+  event.preventDefault();
+});
+losingWeight.addEventListener("click", function (event) {
+  event.preventDefault();
+});
+buildingStrength.addEventListener("click", function (event) {
+  event.preventDefault();
+});
+buildingStamina.addEventListener("click", function (event) {
+    event.preventDefault();
+});
