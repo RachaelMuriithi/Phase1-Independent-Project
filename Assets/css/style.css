@@ -14,7 +14,7 @@
 }
 
 #logo {
-  margin-top: 1%;
+  /* margin-top: 1%; */
   font-size: 100px;
   padding-left: 1%;
   color: white;
@@ -65,7 +65,7 @@ button:hover {
 #nolimit {
   color: whitesmoke;
   font-size: 50px;
-  margin-top: 8%;
+  /* margin-top: 30%; */
   /* margin-left: 50%; */
   font-weight: 600;
 }
@@ -253,4 +253,13 @@ form {
 }
 #upper li {
   padding-right: 2%;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 600px) {
+
+}
+@media only screen and (max-width: 425px) {
+
 }
