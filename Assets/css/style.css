@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
 }
@@ -7,31 +8,27 @@
   box-sizing: border-box;
   background-image: url(../images/nn.jpg);
   width: 100%;
-  height: 2500px;
+  height: 800px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* font-size: 60px; */
 }
-
 #logo {
   /* margin-top: 1%; */
-  font-size: 250px;
+  font-size: 80px;
   padding-left: 1%;
   color: white;
   font-family: "Lobster", cursive;
   text-shadow: 2px 2px 3px black;
   cursor: pointer;
 }
-
 nav {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px, 10%;
-  margin-right: 3%;
-  /* font-size: 100px; */
+  padding: 30px, 5%;
+  margin-right: 5%;
 }
 nav li a {
   transition: all 0.3s ease 0s;
@@ -43,14 +40,13 @@ nav li a:hover {
   list-style-type: none;
   display: flex;
 }
-
 button {
-  padding: 20px 25px;
+  padding: 9px 25px;
   background-color: rgb(135, 175, 220);
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 60px;
+  font-size: 20px;
   transition: all 0.3s ease 0s;
 }
 button:hover {
@@ -58,37 +54,37 @@ button:hover {
 }
 .details {
   color: white;
-  font-size: 80px;
+  font-size: 20px;
   font-weight: 700;
   font-family: "Dancing Script", cursive;
   text-decoration: none;
-  padding: 0px 40px;
+  padding: 0px 20px;
 }
 #nolimit {
-  margin-top: 5%;
   color: whitesmoke;
-  font-size: 100px;
+  font-size: 30px;
+  /* margin-top: 30%; */
+  /* margin-left: 50%; */
   font-weight: 600;
 }
 #desc {
   color: whitesmoke;
-  font-size: 90px;
+  font-size: 30px;
   margin-top: 3%;
   margin-left: 2%;
-  font-weight: 500;
 }
 #about {
-  font-size: 100px;
+  font-size: 40px;
+  /* margin-left: 1%;  */
   font-weight: 600;
-  text-decoration-line: overline;
 }
 #lim {
-  font-size: 200px;
+  font-size: 50px;
   color: white;
-  margin-left: 70%;
+  margin-left: 60%;
 }
 #cap {
- margin-left: 70%;
+ margin-left: 60%;
 }
 /* forms section */
 form {
@@ -97,30 +93,30 @@ form {
   padding: 1rem 0.5rem 2rem 0.5rem;
   text-align: center;
   margin: 2rem;
-  border-radius: 32px;
-  width: 80%;
+  border-radius: 30px;
+  width: 35%;
   box-shadow: 0 0 3px #000000;
 }
 #bmi-calculator {
   margin-left: 10%;
   margin-top: 5%;
   color: white;
-  font-size: 80px;
+  font-size: 20px;
   font-weight: 900;
 }
 #bcolor {
   background-image: url(../images/tty.jpg);
   /* background-color: #3a3d4f;   */
   width: 100%;
-  height: 3500px;
+  height: 1000px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 1%;
 }
 #bmi-form input {
-  padding: 50px;
-  font-size: 80px;
+  padding: 20px;
+  font-size: 20px;
   width: 90%;
   font-weight: 600;
   color: black;
@@ -131,7 +127,6 @@ form {
 .btn {
   background-color: beige;
   color: #000000;
-  box-shadow: #000000;
 }
 .bmicat {
   margin-left: 25%;
@@ -148,30 +143,28 @@ form {
   margin-top: 5%;
   margin-left: 5%;
   color: whitesmoke;
-  font-size: 80px;
+  font-size: 20px;
   font-weight: 900;
 }
 #calorie-form {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 900;
   width: 80%;
-  font-size: 80px;
 }
 #calorie-form input #calorie-weight, #calorie-height, #age, #calorie-weight {
-  padding: 60px;
-  font-size: 80px;
+  padding: 10px;
+  font-size: 26px;
   width: 80%;
   font-weight: 600;
   color: black;
 }
 #activity {
-  padding: 20px;
-  font-size: 65px;
-  width: 50%;
+  padding: 10px;
+  font-size: 20px;
+  width: 60%;
   font-weight: 600;
   color: black;
-  border-radius: 3%;
 }
 #bmi-result, #calorie-result{
   padding: 0.7rem;
@@ -193,37 +186,36 @@ form {
   /* background-color: #5a5f77; */
   background-image: url(../images/22.jpg); 
   width: 100%;
-  height: 4000px;
+  height: 1200px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 #excer {
   padding-top: 3%;
   text-align: center;
-  font-size: 90px;
+  font-size: 30px;
 }
 #unlisted{
-  font-size: 70px;
+  font-size: 30px;
   font-weight: 700;
   margin-left: 30%;
 }
 #contact {
   text-align: center;
   color: white;
-  font-size: 80px;
+  font-size: 20px;
   font-weight: 700;
   background-color: #363d4d;
-  padding-top: 3%;
+  padding-top: 5%;
   padding-right: 2%;
 }
 #contact img {
-  width: 2%;
-  height: 130px;
+  width: 2.5%;
+  height: 40px;
   background-color: hsl(0, 11%, 95%);
   align-items: space-between;
-  border-radius: 10%;
+  border-radius: 15%;
 }
 #email {
   /* text-decoration: none; */
@@ -232,98 +224,29 @@ form {
 #h2 {
   text-align: center;
   text-decoration-line: overline;
-  font-size: 80px;
+  font-size: 30px;
 }
 /* excercise guide section */
-
 #fullbody {
   margin-left: 2%; 
 }
 #unlisted {
-  padding-top: 2%; 
-  padding-bottom: 2%;
-  font-size: 90px;
-  width: 40%;
-  margin-left: 30%;
+  /* padding-bottom: 3%; */
+  font-size: 20px;
 }
 #upper {
   display: flex;
-  font-size: 80px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   margin-left: 8%;
   list-style: none;
 }
 #upper h1 {
-  font-size: 100px;
+  font-size: 30px;
   text-decoration-line: underline;
   padding-right: 5%;
   /* color: #000000; */
 }
 #upper li {
-  padding-right: 3%;
+  padding-right: 2%;
 }
-/* @media only screen and (max-width: 1900px) {
-  .background-image {
-    width: 100%;
-    font-size: 20px;
-    height: 900px;
-  }
-  #logo{
-    font-size: 40px;
-    padding-top: 2%;
-  }
-  #navigate {
-    margin-right: 2%;
-    margin-bottom: 2%;
-  }
- #lim{
-  font-size: 50px;
-  margin-left: 70rem;
-
- }
- #cap {
-  font-size: 30px;
-  margin-left: 65rem;
- }
- #desc {
-  font-size: 20px;
-  margin-top: 5%;
- }
- .exerciseg {
-  height: 1000px;
- }
-}
-@media only screen and (max-width: 1200px) {
-  .background-image {
-    width: 100%;
-    font-size: 20px;
-    height: 700px;
-  }
-  #logo{
-    font-size: 40px;
-    padding-top: 2%;
-  }
-  #navigate {
-    margin-right: 2%;
-    margin-bottom: 5%;
-  }
- #lim{
-  font-size: 30px;
-  margin-left: 55%;
-
- }
- #cap {
-  font-size: 20px;
-  margin-left: 48%;
- }
- #desc {
-  font-size: 20px;
-  margin-top: 10%;
- }
- .exerciseg {
-  height: 800px;
- }
-}
-@media only screen and (max-width: 425px) {
-
-} */
