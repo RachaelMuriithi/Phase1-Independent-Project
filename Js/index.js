@@ -4,13 +4,7 @@ const bmiSubmit = document.getElementById("bmi-submit");
 const calorieForm = document.getElementById("calorie-form");
 const calorieSubmit = document.getElementById("calorie-submit");
 const fullbodyworkout = document.getElementById("fullbody workout");
-const upperandLowerBodyworkout = document.getElementById(
-  "upperandLowerBodyworkout"
-);
-const legworkout = document.getElementById("legworkout");
-const losingWeight = document.getElementById("losingWeight");
-const buildingStrength = document.getElementById("buildingStrength");
-const buildingStamina = document.getElementById("buildingStamina");
+const mylist = document.getElementById("exercise");
 
 // BMI Calculator
 bmiSubmit.addEventListener("click", function (event) {
@@ -79,29 +73,20 @@ calorieSubmit.addEventListener("click", function (event) {
 
 //Excercise guide section
 
-const raysFitnessAPI = "http://localhost:3000/fullbody-workout";
+const raysFitnessAPI = "http://localhost:3000/fullbody-workout/";
 fetch(raysFitnessAPI)
-  .then((res) => res.json())
-  .then(function (res) {
-    return res;
-  });
 
-  
-fullbodyworkout.addEventListener("click", function (event) {
-  event.preventDefault();
-});
-upperandLowerBodyworkout.addEventListener("click", function (event) {
-  event.preventDefault();
-});
-legworkout.addEventListener("click", function (event) {
-  event.preventDefault();
-});
-losingWeight.addEventListener("click", function (event) {
-  event.preventDefault();
-});
-buildingStrength.addEventListener("click", function (event) {
-  event.preventDefault();
-});
-buildingStamina.addEventListener("click", function (event) {
-    event.preventDefault();
-});
+.then((res) => res.json())
+.then (unlisted)
+
+function unlisted (res) {
+  const li = document.createElement("li");
+  renderData = res;
+  li.textContent = renderData;
+  mylist.appendChild(li);
+  li.style.fontSize = '30px'
+  li.style.fontWeight = '600'
+  li.style.width = '15%'
+  li.style.marginLeft = '2%'
+}
+

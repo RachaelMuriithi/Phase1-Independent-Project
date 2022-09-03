@@ -88,9 +88,6 @@ button:hover {
 #cap {
  margin-left: 60%;
 }
-#health {
-  /* margin-left: 15%; */
-}
 /* forms section */
 form {
   background: #191a1d;
@@ -191,7 +188,7 @@ form {
   /* background-color: #5a5f77; */
   background-image: url(../images/22.jpg); 
   width: 100%;
-  height: 1300px;
+  height: 1500px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -230,5 +227,14 @@ form {
 #h2 {
   text-align: center;
   text-decoration-line: overline;
-  font-size: 30px;
+  font-size: 40px;
+}
+/* excercise guide section */
+
+#fullbody {
+  margin-left: 2%; 
+}
+#unlisted {
+  /* padding-bottom: 3%; */
+  font-size: 40px;
 }
