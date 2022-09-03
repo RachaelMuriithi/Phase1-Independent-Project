@@ -1,11 +1,11 @@
 //declaring variables
 const bmiForm = document.getElementById("bmi-form");
 const bmiSubmit = document.getElementById("bmi-submit");
-const calorieForm = document.getElementById("calorie-form");
 const calorieSubmit = document.getElementById("calorie-submit");
 const fullbodyworkout = document.getElementById("fullbody workout");
 const mylist = document.getElementById("exercise");
-const excerciseForm = document.getElementById ("unlisted")
+const excerciseForm = document.getElementById("unlisted");
+const calForm = document.getElementById("calorie-form");
 // BMI Calculator
 bmiSubmit.addEventListener("click", function (event) {
   event.preventDefault();
@@ -26,6 +26,7 @@ bmiSubmit.addEventListener("click", function (event) {
   } else {
     alert("Please enter a valid input!");
   }
+  bmiForm.reset();
 });
 
 // Calorie Calculator:
@@ -66,6 +67,7 @@ calorieSubmit.addEventListener("click", function (event) {
   }
   // Inputs are invalid:
   else alert("Please enter a valid input!");
+  calForm.reset();
 });
 // *****************
 
@@ -73,13 +75,47 @@ calorieSubmit.addEventListener("click", function (event) {
 
 //Excercise guide section
 
-const raysFitnessAPI = "http://localhost:3000/fullbody-workout/";
-fetch(raysFitnessAPI)
-
-.then((res) => res.json())
+//set selected excercise value to the value of the selected radio button
+selectedExcercise = document.querySelector(
+  'input[name="workoutplanning"]:checked'
+).value;
 
 //Adding event-listener to Excecise Guide  Section
+excerciseForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
 
-excerciseForm.addEventListener(click, function (){
-  
-})
+  // fetch the data from the api
+  const excerciseData = await fetchExcerciseDataFromServer();
+
+  // clear the trailhead div to avoid stacking of elements from previous trail fetch
+  document.querySelector("#excerhead").innerHTML = "";
+
+  // title of the excercise(note called outside of the loop)
+  selectedExcerciseTitle();
+
+  // clear the #allexcercise div to avoid stacking of elements from previous trail fetch
+  document.querySelector("#allexcercise").innerHTML = "";
+
+  // loop through the data and render each trail item
+  excerciseData.forEach((excercise) => {
+    renderexcercise(excercise);
+  });
+  // clears the form fields
+  excerciseForm.reset();
+});
+//Using async/await to fetch the data from the API
+async function fetchExcerciseDataFromServer() {
+  // set the server url endpoint to fetch the data from
+  let url = `http://localhost:3000/${selectedExcercise}`;
+  // fetch the data from the server
+  const response = await fetch(url);
+  //parse the data as json
+  const data = await response.json();
+  // check if an error occurred during the fetch
+  if (!response.ok) {
+    throw new Error(`Error fetching data ${response.statusText}`);
+  }
+  // else the fetch was a success return the data(json object)
+  return data;
+}
+function selectedExcerciseTitle() {}
