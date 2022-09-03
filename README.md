@@ -17,6 +17,10 @@ Phase1-Independent-Project/
 
 This project is on a Fitness tracker that helps you track your BMI, and advises you on the amount of calories to intake in relation to your age, weight, height and activity level. It gives you the best advice on what to do if you want to loose weight, maintain or gain. It also lists some excercises that may help you achieve your specific goal.
 
+## Live Link 
+
+https://rachaelmuriithi.github.io/Phase1-Independent-Project/
+
 ## Installation
 
 Can run in any web browser.
