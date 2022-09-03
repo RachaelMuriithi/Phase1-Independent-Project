@@ -250,3 +250,34 @@ form {
 #upper li {
   padding-right: 2%;
 }
+@media only screen and (max-width: 1200px) {
+  .background-image {
+    width: 100%;
+    font-size: 20px;
+    height: 900px;
+  }
+  #logo{
+    font-size: 40px;
+    padding-top: 2%;
+  }
+  #navigate {
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+ #lim{
+  font-size: 50px;
+  margin-left: 70rem;
+
+ }
+ #cap {
+  font-size: 30px;
+  margin-left: 65rem;
+ }
+ #desc {
+  font-size: 20px;
+  margin-top: 5%;
+ }
+ .exerciseg {
+  height: 1000px;
+ }
+}
