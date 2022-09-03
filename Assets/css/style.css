@@ -1,5 +1,5 @@
 * {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -7,15 +7,16 @@
   box-sizing: border-box;
   background-image: url(../images/nn.jpg);
   width: 100%;
-  height: 1300px;
+  height: 2500px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  /* font-size: 60px; */
 }
 
 #logo {
   /* margin-top: 1%; */
-  font-size: 100px;
+  font-size: 250px;
   padding-left: 1%;
   color: white;
   font-family: "Lobster", cursive;
@@ -30,6 +31,7 @@ nav {
   align-items: center;
   padding: 50px, 10%;
   margin-right: 3%;
+  /* font-size: 100px; */
 }
 nav li a {
   transition: all 0.3s ease 0s;
@@ -43,12 +45,12 @@ nav li a:hover {
 }
 
 button {
-  padding: 9px 25px;
+  padding: 20px 25px;
   background-color: rgb(135, 175, 220);
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 20px;
+  font-size: 60px;
   transition: all 0.3s ease 0s;
 }
 button:hover {
@@ -56,34 +58,37 @@ button:hover {
 }
 .details {
   color: white;
-  font-size: 30px;
+  font-size: 80px;
   font-weight: 700;
   font-family: "Dancing Script", cursive;
   text-decoration: none;
-  padding: 0px 20px;
+  padding: 0px 40px;
 }
 #nolimit {
+  margin-top: 5%;
   color: whitesmoke;
-  font-size: 50px;
+  font-size: 100px;
   font-weight: 600;
 }
 #desc {
   color: whitesmoke;
-  font-size: 50px;
+  font-size: 90px;
   margin-top: 3%;
   margin-left: 2%;
+  font-weight: 500;
 }
 #about {
-  font-size: 60px;
+  font-size: 100px;
   font-weight: 600;
+  text-decoration-line: overline;
 }
 #lim {
-  font-size: 100px;
+  font-size: 200px;
   color: white;
-  margin-left: 60%;
+  margin-left: 70%;
 }
 #cap {
- margin-left: 60%;
+ margin-left: 70%;
 }
 /* forms section */
 form {
@@ -93,29 +98,29 @@ form {
   text-align: center;
   margin: 2rem;
   border-radius: 32px;
-  width: 35%;
+  width: 80%;
   box-shadow: 0 0 3px #000000;
 }
 #bmi-calculator {
   margin-left: 10%;
   margin-top: 5%;
   color: white;
-  font-size: 30px;
+  font-size: 80px;
   font-weight: 900;
 }
 #bcolor {
   background-image: url(../images/tty.jpg);
   /* background-color: #3a3d4f;   */
   width: 100%;
-  height: 1400px;
+  height: 3500px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 1%;
 }
 #bmi-form input {
-  padding: 20px;
-  font-size: 26px;
+  padding: 50px;
+  font-size: 80px;
   width: 90%;
   font-weight: 600;
   color: black;
@@ -126,6 +131,7 @@ form {
 .btn {
   background-color: beige;
   color: #000000;
+  box-shadow: #000000;
 }
 .bmicat {
   margin-left: 25%;
@@ -142,7 +148,7 @@ form {
   margin-top: 5%;
   margin-left: 5%;
   color: whitesmoke;
-  font-size: 30px;
+  font-size: 80px;
   font-weight: 900;
 }
 #calorie-form {
@@ -150,20 +156,22 @@ form {
   font-size: 30px;
   font-weight: 900;
   width: 80%;
+  font-size: 80px;
 }
 #calorie-form input #calorie-weight, #calorie-height, #age, #calorie-weight {
-  padding: 20px;
-  font-size: 26px;
+  padding: 60px;
+  font-size: 80px;
   width: 80%;
   font-weight: 600;
   color: black;
 }
 #activity {
   padding: 20px;
-  font-size: 26px;
+  font-size: 65px;
   width: 50%;
   font-weight: 600;
   color: black;
+  border-radius: 3%;
 }
 #bmi-result, #calorie-result{
   padding: 0.7rem;
@@ -185,7 +193,7 @@ form {
   /* background-color: #5a5f77; */
   background-image: url(../images/22.jpg); 
   width: 100%;
-  height: 2000px;
+  height: 4000px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -194,17 +202,17 @@ form {
 #excer {
   padding-top: 3%;
   text-align: center;
-  font-size: 50px;
+  font-size: 90px;
 }
 #unlisted{
-  font-size: 20px;
+  font-size: 70px;
   font-weight: 700;
   margin-left: 30%;
 }
 #contact {
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 80px;
   font-weight: 700;
   background-color: #363d4d;
   padding-top: 3%;
@@ -212,10 +220,10 @@ form {
 }
 #contact img {
   width: 2%;
-  height: 50px;
+  height: 130px;
   background-color: hsl(0, 11%, 95%);
   align-items: space-between;
-  border-radius: 15%;
+  border-radius: 10%;
 }
 #email {
   /* text-decoration: none; */
@@ -224,7 +232,7 @@ form {
 #h2 {
   text-align: center;
   text-decoration-line: overline;
-  font-size: 40px;
+  font-size: 80px;
 }
 /* excercise guide section */
 
@@ -232,26 +240,29 @@ form {
   margin-left: 2%; 
 }
 #unlisted {
-  /* padding-bottom: 3%; */
-  font-size: 40px;
+  padding-top: 2%; 
+  padding-bottom: 2%;
+  font-size: 90px;
+  width: 40%;
+  margin-left: 30%;
 }
 #upper {
   display: flex;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 80px;
+  font-weight: 500;
   margin-left: 8%;
   list-style: none;
 }
 #upper h1 {
-  font-size: 40px;
+  font-size: 100px;
   text-decoration-line: underline;
   padding-right: 5%;
   /* color: #000000; */
 }
 #upper li {
-  padding-right: 2%;
+  padding-right: 3%;
 }
-@media only screen and (max-width: 1900px) {
+/* @media only screen and (max-width: 1900px) {
   .background-image {
     width: 100%;
     font-size: 20px;
@@ -315,4 +326,4 @@ form {
 }
 @media only screen and (max-width: 425px) {
 
-}
+} */
