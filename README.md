@@ -10,7 +10,7 @@ Portfolio By Muriithi Rachael
 6. [Authors-Info]()
 
 ## Description
-This project was on a Fitness App that helps you track your BMI, and advices you best on the amount of calories to intake in relation to your age, weight, height and activity level. It gives you the best advice on what to do if you want to loose weight, maintain or gain. It also gives you some excercises that may help you achieve your specific goal.
+This project is on a Fitness tracker that helps you track your BMI, and advises you on the amount of calories to intake in relation to your age, weight, height and activity level. It gives you the best advice on what to do if you want to loose weight, maintain or gain. It also lists some excercises that may help you achieve your specific goal.
 ## Installation
 Can run in any web browser.
 ## Requirements
