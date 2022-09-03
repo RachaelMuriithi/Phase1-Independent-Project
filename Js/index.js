@@ -5,7 +5,7 @@ const calorieForm = document.getElementById("calorie-form");
 const calorieSubmit = document.getElementById("calorie-submit");
 const fullbodyworkout = document.getElementById("fullbody workout");
 const mylist = document.getElementById("exercise");
-
+const excerciseForm = document.getElementById ("unlisted")
 // BMI Calculator
 bmiSubmit.addEventListener("click", function (event) {
   event.preventDefault();
@@ -77,16 +77,9 @@ const raysFitnessAPI = "http://localhost:3000/fullbody-workout/";
 fetch(raysFitnessAPI)
 
 .then((res) => res.json())
-.then (unlisted)
 
-function unlisted (res) {
-  const li = document.createElement("li");
-  renderData = res;
-  li.textContent = renderData;
-  mylist.appendChild(li);
-  li.style.fontSize = '30px'
-  li.style.fontWeight = '600'
-  li.style.width = '15%'
-  li.style.marginLeft = '2%'
-}
+//Adding event-listener to Excecise Guide  Section
 
+excerciseForm.addEventListener(click, function (){
+  
+})

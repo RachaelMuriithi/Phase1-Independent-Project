@@ -188,7 +188,7 @@ form {
   /* background-color: #5a5f77; */
   background-image: url(../images/22.jpg); 
   width: 100%;
-  height: 1500px;
+  height: 2000px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -200,7 +200,7 @@ form {
   font-size: 50px;
 }
 #unlisted{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   margin-left: 30%;
 }
@@ -237,4 +237,20 @@ form {
 #unlisted {
   /* padding-bottom: 3%; */
   font-size: 40px;
+}
+#upper {
+  display: flex;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 8%;
+  list-style: none;
+}
+#upper h1 {
+  font-size: 40px;
+  text-decoration-line: underline;
+  padding-right: 5%;
+  /* color: #000000; */
+}
+#upper li {
+  padding-right: 2%;
 }
